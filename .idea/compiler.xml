@@ -12,6 +12,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservice_consumer_dept_80" />
         <module name="microservice_consumer_dept_feign" />
+        <module name="microservice_consumer_hystrix_dashboard" />
         <module name="microservice_eureka_7001" />
         <module name="microservice_eureka_7002" />
         <module name="microservice_eureka_7003" />
@@ -26,6 +27,7 @@
       <module name="microservice" target="1.8" />
       <module name="microservice_consumer_dept_80" target="1.8" />
       <module name="microservice_consumer_dept_feign" target="1.8" />
+      <module name="microservice_consumer_hystrix_dashboard" target="1.8" />
       <module name="microservice_eureka_7001" target="1.8" />
       <module name="microservice_eureka_7002" target="1.8" />
       <module name="microservice_eureka_7003" target="1.8" />

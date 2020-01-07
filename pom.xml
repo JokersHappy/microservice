@@ -34,6 +34,7 @@
         <module>microservice_provider_dept_8003</module>
         <module>microservice_consumer_dept_feign</module>
         <module>microservice_provider_dept_hystrix_8001</module>
+        <module>microservice_consumer_hystrix_dashboard</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
