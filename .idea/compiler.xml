@@ -18,6 +18,7 @@
         <module name="microservice_provider_dept_8001" />
         <module name="microservice_provider_dept_8002" />
         <module name="microservice_provider_dept_8003" />
+        <module name="microservice_provider_dept_hystrix_8001" />
         <module name="microserviceapi" />
       </profile>
     </annotationProcessing>
@@ -31,6 +32,7 @@
       <module name="microservice_provider_dept_8001" target="1.8" />
       <module name="microservice_provider_dept_8002" target="1.8" />
       <module name="microservice_provider_dept_8003" target="1.8" />
+      <module name="microservice_provider_dept_hystrix_8001" target="1.8" />
       <module name="microserviceapi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
