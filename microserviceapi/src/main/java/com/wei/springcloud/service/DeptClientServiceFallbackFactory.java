@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -23,7 +24,9 @@ public class DeptClientServiceFallbackFactory implements FallbackFactory<DeptCli
 
             @Override
             public List<Dept> list() {
-                return null;
+                List<Dept> list = new ArrayList<>();
+                list.add(new Dept().setName("没有对应的信息，Consumer客户端提供的降级信息，此刻服务provider已关闭").setData_source("no this database in mysql"));
+                return list;
             }
 
             @Override

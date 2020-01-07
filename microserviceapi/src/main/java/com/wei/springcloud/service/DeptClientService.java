@@ -16,10 +16,10 @@ public interface DeptClientService {
     @RequestMapping("/dept/get/{id}")
      Dept get(@PathVariable("id") Long id);
 
-    @GetMapping("/dept/list")
+    @RequestMapping("/dept/list")
      List<Dept> list();
 
-    @PostMapping("/dept/add")
+    @RequestMapping("/dept/add")
      boolean add(@RequestBody Dept dept);
 
 }

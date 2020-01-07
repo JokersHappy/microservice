@@ -8,6 +8,7 @@ import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -36,4 +37,15 @@ public class DeptController {
         return new Dept().setId(id).setName("找到对应信息").setData_source("no this database in mysql");
     }
 
+    public List<Dept> hystrix_list() {
+        List<Dept> list = new ArrayList<>();
+        list.add(new Dept().setName("没有对应的信息，Consumer客户端提供的降级信息，此刻服务provider已关闭").setData_source("no this database in mysql"));
+        return list;
+    }
+
+    @RequestMapping("/dept/list")
+    @HystrixCommand(fallbackMethod = "hystrix_list")
+    public List<Dept> list(){
+        return deptService.list();
+    }
 }
