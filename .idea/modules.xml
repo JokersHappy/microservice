@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/microservice_provider_dept_8002/microservice_provider_dept_8002.iml" filepath="$PROJECT_DIR$/microservice_provider_dept_8002/microservice_provider_dept_8002.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice_provider_dept_8003/microservice_provider_dept_8003.iml" filepath="$PROJECT_DIR$/microservice_provider_dept_8003/microservice_provider_dept_8003.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice_provider_dept_hystrix_8001/microservice_provider_dept_hystrix_8001.iml" filepath="$PROJECT_DIR$/microservice_provider_dept_hystrix_8001/microservice_provider_dept_hystrix_8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice_zuul_gateway_9527/microservice_zuul_gateway_9527.iml" filepath="$PROJECT_DIR$/microservice_zuul_gateway_9527/microservice_zuul_gateway_9527.iml" />
       <module fileurl="file://$PROJECT_DIR$/microserviceapi/microserviceapi.iml" filepath="$PROJECT_DIR$/microserviceapi/microserviceapi.iml" />
     </modules>
   </component>
