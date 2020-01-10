@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice_config_3344" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice_config_client_3355" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice_consumer_dept_80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice_consumer_dept_feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice_consumer_hystrix_dashboard" charset="UTF-8" />
