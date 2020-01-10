@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/microservice.iml" filepath="$PROJECT_DIR$/microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice_config_3344/microservice_config_3344.iml" filepath="$PROJECT_DIR$/microservice_config_3344/microservice_config_3344.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice_consumer_dept_80/microservice_consumer_dept_80.iml" filepath="$PROJECT_DIR$/microservice_consumer_dept_80/microservice_consumer_dept_80.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice_consumer_dept_feign/microservice_consumer_dept_feign.iml" filepath="$PROJECT_DIR$/microservice_consumer_dept_feign/microservice_consumer_dept_feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice_consumer_hystrix_dashboard/microservice_consumer_hystrix_dashboard.iml" filepath="$PROJECT_DIR$/microservice_consumer_hystrix_dashboard/microservice_consumer_hystrix_dashboard.iml" />
