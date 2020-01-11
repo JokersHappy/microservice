@@ -12,6 +12,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservice_config_3344" />
         <module name="microservice_config_client_3355" />
+        <module name="microservice_config_dept_client_8001" />
         <module name="microservice_consumer_dept_80" />
         <module name="microservice_consumer_dept_feign" />
         <module name="microservice_consumer_hystrix_dashboard" />
@@ -30,6 +31,7 @@
       <module name="microservice" target="1.8" />
       <module name="microservice_config_3344" target="1.8" />
       <module name="microservice_config_client_3355" target="1.8" />
+      <module name="microservice_config_dept_client_8001" target="1.8" />
       <module name="microservice_consumer_dept_80" target="1.8" />
       <module name="microservice_consumer_dept_feign" target="1.8" />
       <module name="microservice_consumer_hystrix_dashboard" target="1.8" />

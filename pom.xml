@@ -38,6 +38,7 @@
         <module>microservice_zuul_gateway_9527</module>
         <module>microservice_config_3344</module>
         <module>microservice_config_client_3355</module>
+        <module>microservice_config_dept_client_8001</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->

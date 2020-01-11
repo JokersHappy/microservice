@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: microservice-config-dept-client       #需要从github上读取
+      profile: test
+      label: master
+      uri: http://config-3344.com:3344

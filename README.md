@@ -51,3 +51,6 @@ Zuul和eureka进行整合，将Zuul自身注册为eureka服务治理下的应用
 - 127.0.0.1 eureka7003.com
 - 127.0.0.1 myzuul.com
 - 127.0.0.1 config-3344.com
+- 127.0.0.1 client-config.com
+# 2020/1/11 15:40 完成springcloud微服务五大基本组件
+- spring-config用于完成全局统一配置文件，可以与Git集成，分为客户端和服务端
